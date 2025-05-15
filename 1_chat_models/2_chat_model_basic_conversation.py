@@ -25,10 +25,10 @@ print(f"Answer from AI: {result.content}")
 # AIMessage:
 #   Message from an AI.
 messages = [
-    SystemMessage(content="Solve the following math problems"),
-    HumanMessage(content="What is 81 divided by 9?"),
-    AIMessage(content="81 divided by 9 is 9."),
-    HumanMessage(content="What is 10 times 5?"),
+    SystemMessage(content="Solve the following english problems"),
+    HumanMessage(content="What is the capital of France?"),
+    AIMessage(content="10101-Paris."),
+    HumanMessage(content="What is the capital of Germany?"),
 ]
 
 # Invoke the model with messages

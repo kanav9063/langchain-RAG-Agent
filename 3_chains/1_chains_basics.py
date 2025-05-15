@@ -21,6 +21,10 @@ prompt_template = ChatPromptTemplate.from_messages(
 chain = prompt_template | model | StrOutputParser()
 # chain = prompt_template | model
 
+
+#pipes are a way to chain together multiple components
+
+
 # Run the chain
 result = chain.invoke({"topic": "lawyers", "joke_count": 3})
 
